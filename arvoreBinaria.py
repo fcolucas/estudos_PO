@@ -126,7 +126,7 @@ exc = int(input("\nExcluir um número: "))
 arvore = excluir(arvore, exc)
 
 if(arvore != None):
-    print("Número excluido\n")
+    print("Número excluido :)\n")
     ImprimeArvore = ""
     emOrdem(arvore)
-    print ("EmOrdem: " + ImprimeArvore + "\n")
+    print ("Em Ordem: " + ImprimeArvore + "\n")
