@@ -12,7 +12,7 @@ def usuario(numero_gerado):
         elif chute_usuario < numero_gerado:
             print("O número gerado é maior que o chute: ", chute_usuario)
 
-    print("NA MOSCA! O número gerado foi: ", numero_gerado)
+    print("ACERTOU MISERAVI! O número gerado foi: ", numero_gerado)
     print("Você precisou de ", contador_usuario,
           " rodadas para acertar o número gerado.")
     return contador_usuario
