@@ -47,9 +47,9 @@ def main():
         contador_usuario = usuario(numero_gerado)
         contador_maquina = maquina(numero_gerado)
         if contador_usuario < contador_maquina:
-            print("PARABÉNS! Você ganhou da máquina.")
+            print("PARABÉNS! Você ganhou da máquina. =)")
         else:
-            print("Não foi dessa vez que você venceu a máquina!")
+            print("Não foi dessa vez que você venceu a máquina! =(")
 
 
 main()
