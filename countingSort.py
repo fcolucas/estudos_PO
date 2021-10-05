@@ -23,7 +23,7 @@ def reverse_list(tam):
     return lista
       
 def random_list(tam):
-    lista = [ ]
+    lista = []
     for i in range(tam):
         n = randint(1,1*tam)
         if n not in lista: lista.append(n)
