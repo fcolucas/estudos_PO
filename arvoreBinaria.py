@@ -11,7 +11,7 @@ def pesquisar(no, valor):
         if no == None:
             return 0
         else:
-            if valor == no.valor:
+            if (valor == no.valor):
                 return 1
             else:
                 if valor < no.valor:
@@ -24,7 +24,7 @@ def inserir(no, valor):
 	if no is None:
 		no = Arvore(valor);
 	else:
-		if valor < no.valor:
+		if (valor < no.valor):
 			no.esquerda = inserir(no.esquerda, valor);   
 		else:
 			no.direita  = inserir(no.direita, valor);  
